@@ -1,0 +1,35 @@
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 223px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+.banner-img {
+    height: 1024px;
+    width: auto;
+}
+
+.banner-overlay {
+    width: 100%;
+    height: 223px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    position: absolute;
+    z-index: 1;
+}
+
+.banner-title {
+    font-size: 4vmax;
+    color: #FFFFFF;
+    font-weight: 500;
+    width: auto;
+}
