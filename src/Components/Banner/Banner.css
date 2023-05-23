@@ -31,5 +31,6 @@
     font-size: 4vmax;
     color: #FFFFFF;
     font-weight: 500;
-    width: auto;
+    width: 100%;
+    text-align: center;
 }

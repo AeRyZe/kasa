@@ -5,7 +5,7 @@ function Banner({ title, banner }) {
         <div className='banner-container'>
             <img src={banner} className='banner-img' alt='Bannière à propos Kasa'></img>
             <div className='banner-overlay'>
-                <h1 className='banner-title'>{title}</h1>
+                {title === '' ? null : (<h1 className='banner-title'>{title}</h1>)}
             </div>
         </div>
     )
