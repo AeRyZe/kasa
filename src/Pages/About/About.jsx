@@ -1,6 +1,12 @@
+import Banner from '../../Components/Banner/Banner.jsx'
+import banner from '../../Assets/banner2.png'
+import './About.css'
+
 function About() {
     return (
-        <h1>About</h1>
+        <main>
+            <Banner title='' banner={banner} />
+        </main>
     )
 }
 
