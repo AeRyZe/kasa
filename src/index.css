@@ -1,9 +1,9 @@
-@import url('https: //fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https: //fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 body {
   padding: 3% 6% 3% 5.5%;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
