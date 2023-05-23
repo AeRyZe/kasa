@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+    white-space: nowrap;
+    margin-right: 2%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    height: 50px;
+    width: auto;
+}
+
+a {
+    font-size: 18px;
+}
