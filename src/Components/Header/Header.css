@@ -13,11 +13,7 @@ header {
     padding-bottom: 4%;
 }
 
-img {
+.header-logo {
     height: 50px;
     width: auto;
-}
-
-a {
-    font-size: 18px;
 }
