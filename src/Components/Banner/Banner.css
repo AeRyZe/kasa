@@ -11,8 +11,8 @@
 }
 
 .banner-img {
-    height: 1024px;
-    width: auto;
+    height: auto;
+    width: 150%;
 }
 
 .banner-overlay {
