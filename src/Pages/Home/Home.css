@@ -1,0 +1,11 @@
+.thumbs-container {
+    width: 94%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #eeeeee;
+    border-radius: 25px;
+    margin: 40px 0 20px 0;
+    padding: 3%;
+    gap: 4vw;
+}

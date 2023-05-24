@@ -1,16 +1,4 @@
-.thumbs-container {
-    width: 94%;
-    height: fit-content;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #eeeeee;
-    border-radius: 25px;
-    margin: 40px 0 20px 0;
-    padding: 3%;
-    gap: 4vw;
-}
-
-.thumbs-container a {
+.thumb-link {
     display: contents;
 }
 
@@ -41,7 +29,7 @@
 }
 
 .gradient p {
-    font-size: 15px;
+    font-size: 14px;
     color: #FFFFFF;
-    padding: 0 7%;
+    padding: 0 8% 0.6vh 8%;
 }
