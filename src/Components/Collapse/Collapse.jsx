@@ -36,7 +36,7 @@ function Collapse({ type, title, value }) {
                     :
                         (<ul className='array-ul'>
                             {value.map((item) => (
-                                <li className='array-li'>{item}</li>
+                                <li key={`li-${item}`} className='array-li'>{item}</li>
                             ))}
                         </ul>)
                 }

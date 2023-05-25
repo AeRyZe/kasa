@@ -30,29 +30,25 @@
 
 .collapse-toggle-opened {
     color: #FFFFFF;
-    transition: all .25s ease-out;
+    transition: all .25s ease;
     rotate: 180deg;
 }
 
 .collapse-toggle-closed {
     color: #FFFFFF;
-    transition: all .25s ease-out;
+    transition: all .25s ease;
     rotate: 0deg;
 }
 
 .collapse-dropdown-opened {
     width: 100%;
     background-color: #eeeeee;
-    border-radius: 5px;
+    border-radius: 0 0 5px 5px;
     padding: 0 2%;
     display: block;
 }
 
 .collapse-dropdown-closed {
-    width: 100%;
-    background-color: #eeeeee;
-    border-radius: 5px;
-    padding: 0 2%;
     display: none;
 }
 
