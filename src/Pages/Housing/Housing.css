@@ -1,0 +1,43 @@
+.housing-first-layer {
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw 0 0 0;
+}
+
+.housing-title {
+    font-size: 2.5vw;
+    color: #FF6060;
+}
+
+.housing-location {
+    font-size: 1.25vw;
+    color: #FF6060;
+    position: relative;
+    bottom: 1.5vw;
+    margin: 0;
+}
+
+.housing-second-layer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.housing-tags {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.housing-third-layer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.housing-collapse {
+    width: 47%;
+    display: flex;
+    justify-content: space-between;
+}
