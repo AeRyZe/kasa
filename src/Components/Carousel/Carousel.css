@@ -1,0 +1,40 @@
+.carousel-container {
+    width: 100%;
+    height: 36vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-currentimg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.carousel-nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+
+.carousel-btn {
+    height: 20%;
+    color: #FFFFFF;
+    margin: 0 2%;
+}
+
+.carousel-index {
+    font-size: 18px;
+    color: #FFFFFF;
+    align-self: flex-end;
+    margin-bottom: 3%;
+}
