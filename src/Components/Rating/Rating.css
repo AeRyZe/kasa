@@ -4,9 +4,11 @@
 }
 
 .rating-star-full {
+    height: 2vw;
     color: #FF6060;
 }
 
 .rating-star-empty {
+    height: 2vw;
     color: #EEEEEE;
 }

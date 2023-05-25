@@ -1,6 +1,6 @@
 .collapse {
     height: fit-content;
-    width: 80%;
+    width: 100%;
     align-self: center;
     display: flex;
     flex-direction: column;
@@ -48,6 +48,10 @@
     display: block;
 }
 
+.collapse-dropdown-opened p {
+    color: #FF6060;
+}
+
 .collapse-dropdown-closed {
     display: none;
 }
@@ -55,4 +59,8 @@
 .array-ul {
     list-style-type: none;
     padding: 0;
+}
+
+.array-li {
+    color: #FF6060;
 }

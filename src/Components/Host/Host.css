@@ -5,13 +5,18 @@
     gap: 1%;
 }
 
+.host-name {
+    width: 8vw;
+}
+
 .host-name p {
     color: #FF6060;
-    font-size: 16px;
+    font-size: 1.4vw;
+    text-align: center;
 }
 
 .host-pic {
-    width: 5%;
+    width: 5vw;
     border-radius: 100%;
     overflow: hidden;
     display: flex;
