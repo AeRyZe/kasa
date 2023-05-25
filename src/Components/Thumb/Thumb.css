@@ -29,7 +29,8 @@
 }
 
 .gradient p {
-    font-size: 14px;
+    width: 70%;
+    font-size: 1.5vw;
     color: #FFFFFF;
     padding: 0 8% 0.6vh 8%;
 }

@@ -9,7 +9,7 @@ function Error404() {
                     <h1 className='error-404'>404</h1>
                     <h2 className='error-desc'>Oups! La page que vous demandez n'existe pas.</h2>
                 </div>
-                <Link to="/">Retour à la page d'accueil</Link>
+                <Link to="/" className='error-link'>Retour à la page d'accueil</Link>
             </div>
         </main>
     )

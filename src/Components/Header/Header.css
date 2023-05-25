@@ -1,9 +1,8 @@
 nav {
     display: flex;
     justify-content: center;
-    gap: 30%;
+    gap: 4vw;
     white-space: nowrap;
-    margin-right: 2%;
 }
 
 header {
@@ -14,6 +13,10 @@ header {
 }
 
 .header-logo {
-    height: 50px;
+    height: 4vw;
     width: auto;
+}
+
+.header-link {
+    font-size: 1.3vw;
 }

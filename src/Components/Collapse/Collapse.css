@@ -10,7 +10,7 @@
 
 .collapse-container {
     width: 100%;
-    height: 47px;
+    height: 4.2vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,12 +19,16 @@
     padding: 0 2%;
 }
 
+.collapse-container svg {
+    height: 2vw;
+}
+
 .collapse-container:hover {
     cursor: pointer;
 }
 
 .collapse-container p {
-    font-size: 20px;
+    font-size: 1.6vw;
     color: #FFFFFF;
 }
 
@@ -48,7 +52,8 @@
     display: block;
 }
 
-.collapse-dropdown-opened p {
+.collapse-dropdown-opened p, .array-li {
+    font-size: 1.2vw;
     color: #FF6060;
 }
 
@@ -57,10 +62,10 @@
 }
 
 .array-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     list-style-type: none;
     padding: 0;
-}
-
-.array-li {
-    color: #FF6060;
+    margin: 2.5% 1%;
 }
