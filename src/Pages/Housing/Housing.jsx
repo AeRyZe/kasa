@@ -16,19 +16,21 @@ function Housing() {
             {obj !== undefined ? (
                 <div className='housing-container'>
                     <Carousel Array={obj.pictures} />
-                    <div className='housing-first-layer'>
-                        <h1 className='housing-title'>{obj.title}</h1>
-                        <Host name={obj.host.name} pic={obj.host.picture} />
-                    </div>
-                    <p className='housing-location'>{obj.location}</p>
-                    <div className='housing-second-layer'>
-                        <div className='housing-tags'>
-                            {obj.tags.map((item, index) => (
-                                <Tag key={`housetag-${obj.id}-${index}`} value={item} />
-                            ))}
+                    <div className='housing-infos'>
+                        <div className='housing-first-layer'>
+                            <h1 className='housing-title'>{obj.title}</h1>
+                            <p className='housing-location'>{obj.location}</p>
+                            <div className='housing-tags'>
+                                {obj.tags.map((item, index) => (
+                                    <Tag key={`housetag-${obj.id}-${index}`} value={item} />
+                                ))}
+                            </div>
                         </div>
-                        <div className='housing-rating'>
-                            <Rating averageRating={parseInt(obj.rating)} />
+                        <div className='housing-second-layer'>
+                            <Host name={obj.host.name} pic={obj.host.picture} />
+                            <div className='housing-rating'>
+                                <Rating averageRating={parseInt(obj.rating)} />
+                            </div>
                         </div>
                     </div>
                     <div className='housing-third-layer'>
