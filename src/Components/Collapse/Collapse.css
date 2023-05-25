@@ -1,0 +1,62 @@
+.collapse {
+    height: fit-content;
+    width: 80%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3% auto;
+}
+
+.collapse-container {
+    width: 100%;
+    height: 47px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF6060;
+    border-radius: 5px;
+    padding: 0 2%;
+}
+
+.collapse-container:hover {
+    cursor: pointer;
+}
+
+.collapse-container p {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.collapse-toggle-opened {
+    color: #FFFFFF;
+    transition: all .25s ease-out;
+    rotate: 180deg;
+}
+
+.collapse-toggle-closed {
+    color: #FFFFFF;
+    transition: all .25s ease-out;
+    rotate: 0deg;
+}
+
+.collapse-dropdown-opened {
+    width: 100%;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    padding: 0 2%;
+    display: block;
+}
+
+.collapse-dropdown-closed {
+    width: 100%;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    padding: 0 2%;
+    display: none;
+}
+
+.array-ul {
+    list-style-type: none;
+    padding: 0;
+}
