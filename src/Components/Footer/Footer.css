@@ -24,3 +24,21 @@ footer {
     font-size: 1.5vw;
     color: #FFFFFF;
 }
+
+/* /////////////////////////////////////////////////// MEDIA QUERIES ////////////////////////////////////////////////////// */
+
+@media (max-width: 480px) {
+    .footer-container {
+        height: 44vw;
+        gap: 10%;
+        justify-content: center;
+    }
+
+    .footer-container img {
+        width: 28vw;
+    }
+
+    .footer-container p {
+        font-size: 3vw;
+    }
+}
