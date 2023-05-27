@@ -6,7 +6,7 @@ import Collapse from '../../Components/Collapse/Collapse.jsx'
 function About() {
     return (
         <main>
-            <Banner title='' banner={banner} />
+            <Banner title='' banner={banner} className='about-banner' clazzName='about-banner-container' />
             <div className='about-collapse'>
                 <Collapse type='string' title='Fiabilité' value='Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes.' />
                 <Collapse type='string' title='Respect' value='La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.' />
