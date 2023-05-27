@@ -20,3 +20,15 @@ header {
 .header-link {
     font-size: 1.4vw;
 }
+
+/* /////////////////////////////////////////////////// MEDIA QUERIES ////////////////////////////////////////////////////// */
+
+@media (max-width: 480px) {
+    .header-logo {
+        height: 13vw;
+    }
+
+    .header-link {
+        font-size: 3.8vw;
+    }
+}
