@@ -9,3 +9,15 @@
     padding: 3%;
     gap: 4vw;
 }
+
+/* /////////////////////////////////////////////////// MEDIA QUERIES ////////////////////////////////////////////////////// */
+
+@media (max-width: 480px) {
+    .thumbs-container {
+        width: 100%;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        padding: 0;
+        margin: 20px 0 40px 0;
+    }
+}
