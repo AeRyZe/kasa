@@ -2,17 +2,17 @@
     height: auto;
     display: flex;
     align-items: center;
-    gap: 1%;
+    gap: 5%;
 }
 
 .host-name {
-    width: 8vw;
+    width: fit-content;
 }
 
 .host-name p {
     color: #FF6060;
     font-size: 1.4vw;
-    text-align: center;
+    text-align: end;
 }
 
 .host-pic {
@@ -26,4 +26,20 @@
 .host-pic img {
     width: 100%;
     height: 100%;
+}
+
+/* /////////////////////////////////////////////////// MEDIA QUERIES ////////////////////////////////////////////////////// */
+
+@media (max-width: 480px) {
+    .host-container {
+        justify-content: space-between;
+    }
+
+    .host-name p {
+        font-size: 4vw;
+    }
+
+    .host-pic {
+        width: 12vw;
+    }
 }
