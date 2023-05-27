@@ -1,4 +1,4 @@
-.banner-container {
+.home-banner-container, .about-banner-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,6 +13,7 @@
 .banner-img {
     height: auto;
     width: 150%;
+    object-fit: cover;
 }
 
 .banner-overlay {
@@ -33,4 +34,22 @@
     font-weight: 500;
     width: 100%;
     text-align: center;
+}
+
+/* /////////////////////////////////////////////////// MEDIA QUERIES ////////////////////////////////////////////////////// */
+
+@media (max-width: 480px) {
+    .home-banner-container {
+        height: 34vw;
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
+    .banner-title {
+        font-size: 7vw;
+        padding: 0 5vw;
+        text-align: start;
+    }
 }
