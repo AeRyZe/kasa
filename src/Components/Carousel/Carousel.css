@@ -38,3 +38,19 @@
     align-self: flex-end;
     margin-bottom: 3%;
 }
+
+/* /////////////////////////////////////////////////// MEDIA QUERIES ////////////////////////////////////////////////////// */
+
+@media (max-width: 480px) {
+    .carousel-container {
+        height: 66vw;
+    }
+
+    .carousel-btn {
+        height: 14%;
+    }
+
+    .carousel-index {
+        display: none;
+    }
+}
