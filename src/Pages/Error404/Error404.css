@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .error-404 {
@@ -28,4 +29,22 @@
 
 .error-link {
     font-size: 2vw;
+}
+
+/* /////////////////////////////////////////////////// MEDIA QUERIES ////////////////////////////////////////////////////// */
+
+@media (max-width: 480px) {
+    .error-404 {
+        font-size: 36vw;
+        margin-top: 140px;
+    }
+
+    .error-desc {
+        font-size: 6vw;
+    }
+
+    .error-link {
+        font-size: 4.5vw;
+        margin-bottom: 120px;
+    }
 }
