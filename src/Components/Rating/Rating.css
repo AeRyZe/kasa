@@ -1,6 +1,6 @@
 .rating-container {
     display: flex;
-    gap: .5%;
+    gap: 1%;
 }
 
 .rating-star-full {
@@ -11,4 +11,12 @@
 .rating-star-empty {
     height: 2vw;
     color: #EEEEEE;
+}
+
+/* /////////////////////////////////////////////////// MEDIA QUERIES ////////////////////////////////////////////////////// */
+
+@media (max-width: 480px) {
+    .rating-star-full, .rating-star-empty {
+        height: 4vw;
+    }
 }
