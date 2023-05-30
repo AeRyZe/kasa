@@ -10,7 +10,7 @@ function Carousel({ Array }) {
     const nextImg = () => {
         index === Array.length - 1 ? setIndex(0) : setIndex(index + 1)
     };
-    
+
     const prevImg = () => {
         index === 0 ? setIndex(Array.length - 1) : setIndex(index - 1)
     };
@@ -18,11 +18,13 @@ function Carousel({ Array }) {
     return (
         <div className='carousel-container'>
             <img src={Array[index]} alt="Un logement proposé sur Kasa" className='carousel-currentimg' />
-            <div className='carousel-nav'>
-                <FontAwesomeIcon icon={faChevronLeft} size='2xl' className='carousel-btn' onClick={prevImg} />
-                <p className='carousel-index'>{`${index + 1}/${Array.length}`}</p>
-                <FontAwesomeIcon icon={faChevronRight} size='2xl' className='carousel-btn' onClick={nextImg} />
-            </div>
+            {Array.length <= 1 ? null : (
+                <div className='carousel-nav'>
+                    <FontAwesomeIcon icon={faChevronLeft} size='2xl' className='carousel-btn' onClick={prevImg} />
+                    <p className='carousel-index'>{`${index + 1}/${Array.length}`}</p>
+                    <FontAwesomeIcon icon={faChevronRight} size='2xl' className='carousel-btn' onClick={nextImg} />
+                </div>
+            )}
         </div>
     )
 }
