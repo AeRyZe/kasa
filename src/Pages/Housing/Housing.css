@@ -1,4 +1,5 @@
 .housing-infos {
+    height: 28vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +31,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    gap: 2.5vw;
+    gap: 3vw;
 }
 
 .housing-tags {
