@@ -5,10 +5,10 @@
 }
 
 .housing-first-layer {
+    height: fit-content;
     width: 50%;
     display: flex;
     flex-direction: column;
-    margin: 1vw 0 0 0;
 }
 
 .housing-title {
@@ -25,13 +25,12 @@
 }
 
 .housing-second-layer {
-    height: 10vw;
-    align-self: flex-end;
+    align-self: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: 1vw;
+    gap: 2.5vw;
 }
 
 .housing-tags {
@@ -85,7 +84,7 @@
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
-        margin-top: 3vw;
+        margin: 4vw 0 2vw 0;
     }
 
     .housing-third-layer {
