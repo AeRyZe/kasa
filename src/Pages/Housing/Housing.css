@@ -1,5 +1,5 @@
 .housing-infos {
-    height: 28vh;
+    min-height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,12 +26,11 @@
 }
 
 .housing-second-layer {
-    align-self: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    gap: 3vw;
+    margin-bottom: 1.5vw;
 }
 
 .housing-tags {

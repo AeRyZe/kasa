@@ -1,11 +1,12 @@
 .host-container {
-    height: 5vw;
+    height: 10vw;
     display: flex;
     align-items: center;
     gap: 5%;
 }
 
 .host-name {
+    height: fit-content;
     width: fit-content;
 }
 
