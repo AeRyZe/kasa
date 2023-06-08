@@ -65,6 +65,7 @@
     .housing-first-layer {
         width: 100%;
         gap: 1vw;
+        margin-top: 4vw;
     }
 
     .housing-title {
