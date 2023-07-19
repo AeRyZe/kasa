@@ -13,7 +13,7 @@ function Housing() {
 
     useEffect(() => {
         async function getHousings() {
-            const results = await fetch('http://localhost:3000/logements.json')
+            const results = await fetch('https://kasa-self.vercel.app/logements.json')
             const data = await results.json()
             setHousings(data)
         }
